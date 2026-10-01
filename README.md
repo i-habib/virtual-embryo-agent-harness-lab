@@ -85,7 +85,7 @@ runs/my-harness/
     ...
 ```
 
-`trace.jsonl` records task starts/ends, stdout/stderr, generated artifacts, deterministic grading, wall time, and peak process-tree RSS.
+`trace.jsonl` records task starts/ends, stdout/stderr, generated artifacts, deterministic grading, wall time, and peak process-tree RSS. Its fields are documented in [`docs/trace-format.md`](docs/trace-format.md). [Agent Trace Explorer](https://github.com/i-habib/agent-trace-explorer) can turn the file into a filterable HTML timeline or compare two runs.
 
 ## Check the benchmark itself
 
